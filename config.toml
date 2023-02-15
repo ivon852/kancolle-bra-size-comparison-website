@@ -1,5 +1,5 @@
 languageCode = 'zh'
-title = '艦娘乳圖鑑(偽) KanColle Bra Size Comparison'
+title = '乳圖鑑'
 enableInlineShortcodes = true
 theme =["simplog","hugo-shortcode-gallery"]
 
@@ -8,7 +8,7 @@ baseURL = "https://kancollebra.netlify.app"
 galleryLoadJQuery = true
 
 [params]
-  subtitle = "《艦娘乳図鑑》的迫真複製品。"
+  subtitle = "Bra Size Comparison"
   colorTheme = "default"
   description = "This is a simple blog theme for Hugo."
   twitter = "GoHugoIO"

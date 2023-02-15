@@ -1,8 +1,10 @@
 ---
-title: "v1.0.0"
+title: "艦娘乳圖鑑(偽) KanColle Bra Size Comparison"
 date: 2023-02-14T01:00:00+08:00
 draft: false
 ---
+
+日本艦これ網站《艦娘乳図鑑》的簡略複製品。
 
 施工中。目前只有深海棲艦。
 

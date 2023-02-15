@@ -1,12 +1,21 @@
  
 # 艦娘乳圖鑑(偽) KanColle Bra Size Comparison
 
-《艦娘乳図鑑》的迫真複製品。
+《艦娘乳図鑑》的簡略複製品。
 
 線上瀏覽：[https://kancollebra.netlify.app/posts/kancolle-bra-size-comparison/](https://kancollebra.netlify.app/posts/kancolle-bra-size-comparison/)
 
 
-## 0. 標示原則
+## 0. 專案進度
+
+立繪更新至2023/2/14。
+
+- 深海棲艦 (完成)
+- 艦娘 (未完成)
+- 按罩杯、艦種搜尋(完成)。因為使用的網站技術緣故，暫不支援複合條件搜尋。
+
+
+## 1. 標示原則
 
 艦娘和深海棲艦的罩杯大小為主觀認定，參考其他出版物作調整。
 
@@ -16,25 +25,17 @@
 
 被衣物遮擋的預設視為A罩杯。
 
-立繪更新至2023/2/14。
-
-
-## 1. 進度
-
-- 深海棲艦 (完成)
-- 艦娘 (未完成)
-
 
 ## 2. 資料處理流程
 
 1. 下載艦隊Collection的[完整遊戲快取](https://shizuru.piro.moe/kccp/)。
 
-2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(僅中破立繪)，使用ImageMagick裁圖為250x250像素圖片：
+2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(僅中破立繪，忽略季節限定立繪)，使用ImageMagick裁圖為250x250像素圖片：
 ```bash
 mogrify -format png -gravity center -crop 250x250+0+0 -resize 250x250 *.png
 ```
 
-3. 深海棲艦沒有半身像，從`kcs2/resources/ship/full/`目錄抽出全身像(艦種一樣，僅數值不同的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250大小圖片。
+3. 深海棲艦沒有半身像，從`kcs2/resources/ship/full/`目錄抽出全身像(同艦種僅數值不同的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250像素圖片。
 
 4. 將裁切的圖片放置到此儲存庫的`content/posts/kancolle-bra-size-comparison/thumbnails/`目錄。
 
