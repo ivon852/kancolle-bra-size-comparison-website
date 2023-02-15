@@ -145,8 +145,6 @@ Ordinal: {{ .Ordinal}}
 					{{ with $metadata }}
 						{{ if .Title }}
 							title="{{ .Title }}"
-						{{ else if .ImageDescription }}
-							title="{{ .ImageDescription }}"
 						{{ end }}
 
 							data-description="Ship Class: {{ (index (.Tags) 1) }}. {{ (index (.Tags) 0) }}. {{ .ImageDescription }}"

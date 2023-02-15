@@ -30,7 +30,7 @@
 
 1. 下載艦隊Collection的[完整遊戲快取](https://shizuru.piro.moe/kccp/)。
 
-2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(僅中破立繪，忽略季節限定立繪)，使用ImageMagick裁圖為250x250像素圖片：
+2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(忽略季節限定立繪)，使用ImageMagick裁圖為250x250像素圖片：
 ```bash
 mogrify -format png -gravity center -crop 250x250+0+0 -resize 250x250 *.png
 ```
