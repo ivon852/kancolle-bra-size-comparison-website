@@ -1,0 +1,21 @@
+languageCode = 'zh'
+title = '艦娘乳圖鑑(偽) KanColle Bra Size Comparison'
+enableInlineShortcodes = true
+theme =["simplog","hugo-shortcode-gallery"]
+
+baseURL = "https://example.com"
+
+galleryLoadJQuery = true
+
+[params]
+  subtitle = "《艦娘乳図鑑》的迫真複製品。"
+  colorTheme = "default"
+  description = "This is a simple blog theme for Hugo."
+  twitter = "GoHugoIO"
+  customCSS = ""
+  adobeFontsKitId = ""
+
+  [params.enabled]
+    comment = true
+    summary = true
+    toc = true
