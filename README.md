@@ -29,12 +29,12 @@
 
 1. 下載艦隊Collection的[完整遊戲快取](https://shizuru.piro.moe/kccp/)。
 
-2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像，使用ImageMagick裁圖為250x250圖片：
+2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(僅中破立繪)，使用ImageMagick裁圖為250x250像素圖片：
 ```bash
-mogrify -format png   -gravity center -crop 250x250+0+0 -resize 250x250  *.png
+mogrify -format png -gravity center -crop 250x250+0+0 -resize 250x250 *.png
 ```
 
-3. 深海棲艦沒有半身像，從`kcs2/resources/ship/full/`目錄抽出全身像(重複艦種，僅數值不同的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250大小圖片。
+3. 深海棲艦沒有半身像，從`kcs2/resources/ship/full/`目錄抽出全身像(艦種一樣，僅數值不同的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250大小圖片。
 
 4. 將裁切的圖片放置到此儲存庫的`content/posts/kancolle-bra-size-comparison/thumbnails/`目錄。
 
@@ -57,7 +57,7 @@ git clone https://github.com/ivon852/kancolle-bra-size-comparison-website.git
 hugo server -D
 ```
 
-## 4. 網站使用的開源元件
+## 4. 此網站使用的開源元件
 
 - [Hugo](https://github.com/topics/hugo)
 - [SimpLog Hugo Theme](https://github.com/michimani/simplog)
