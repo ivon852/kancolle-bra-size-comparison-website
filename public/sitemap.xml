@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://kancollebra.netlify.app/posts/</loc>
     <lastmod>2023-02-14T01:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/kancolle-bra-size-comparison/</loc>
+    <loc>https://kancollebra.netlify.app/posts/kancolle-bra-size-comparison/</loc>
     <lastmod>2023-02-14T01:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://kancollebra.netlify.app/</loc>
     <lastmod>2023-02-14T01:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://kancollebra.netlify.app/categories/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://kancollebra.netlify.app/tags/</loc>
   </url>
 </urlset>

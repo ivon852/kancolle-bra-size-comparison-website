@@ -3,7 +3,7 @@ title = '艦娘乳圖鑑(偽) KanColle Bra Size Comparison'
 enableInlineShortcodes = true
 theme =["simplog","hugo-shortcode-gallery"]
 
-baseURL = "https://example.com"
+baseURL = "https://kancollebra.netlify.app"
 
 galleryLoadJQuery = true
 
