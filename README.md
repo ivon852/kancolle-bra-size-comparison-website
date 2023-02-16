@@ -8,11 +8,12 @@
 
 ## 0. 專案進度
 
-立繪更新至2023/2/14。
+遊戲立繪更新至2023/2/14。
 
+- 支援複合條件搜尋 (未完成)
+- 點選縮圖後顯示全身圖 (未完成)
 - 深海棲艦 (完成)
 - 艦娘 (完成)
-- 援複合條件搜尋 (未完成)
 
 
 ## 1. 標示原則
@@ -26,20 +27,20 @@
 被衣物遮擋的預設視為A罩杯。
 
 
-## 2. 資料處理流程
+## 2. 原始資料處理流程
 
-1. 下載艦隊Collection的[完整遊戲快取](https://shizuru.piro.moe/kccp/)。
+1. 下載艦隊Collection的[最新完整遊戲快取](https://shizuru.piro.moe/kccp/)，解壓縮。
 
-2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(忽略季節限定立繪)，使用ImageMagick裁圖為250x250像素圖片：
+2. 從目錄`kcs2/resources/ship/character_up_dmg/`抽出艦娘的半身像(忽略季節限定立繪)，使用ImageMagick裁圖為250x250像素圖片。大部分圖片的胸部應位於正中央，視情況再手動裁圖。
 ```bash
 mogrify -format png -gravity center -crop 250x250+0+0 -resize 250x250 *.png
 ```
 
-3. 深海棲艦沒有半身像，從`kcs2/resources/ship/full/`目錄抽出全身像(同艦種僅數值不同的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250像素圖片。
+3. 深海棲艦沒有半身像，因此從`kcs2/resources/ship/full/`目錄抽出全身像(同艦種不同數值的不納入，例如集積地棲姬II、集積地棲姬III)，手動裁切為250x250像素圖片。
 
-4. 將裁切的圖片放置到此儲存庫的`content/posts/kancolle-bra-size-comparison/thumbnails/`目錄。
+4. 移動到此儲存庫的`content/posts/`目錄，在個別文章目錄下新增`thumbnails`目錄，將裁切的圖片放到這裡。
 
-5. 在該目錄下新增與檔案同名，後綴為`.meta`的描述檔，填入罩杯、艦種、是艦娘還是深海棲艦、艦娘名字。
+5. 在該`thumbnails`目錄新增與圖片同名，後綴為`.meta`的描述檔，填入罩杯、艦種、是艦娘還是深海棲艦、名字。
 
 6. 使用`deploy_n.sh`指令稿部署網站。
 
