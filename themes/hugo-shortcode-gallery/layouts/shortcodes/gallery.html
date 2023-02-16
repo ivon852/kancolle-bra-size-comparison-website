@@ -144,7 +144,7 @@ Ordinal: {{ .Ordinal}}
 					class="galleryImg"
 					{{ with $metadata }}
 						{{ if .Title }}
-							title="{{ .Title }}"
+							title="{{ .Title }}. Ship Class: {{ (index (.Tags) 1) }}. {{ (index (.Tags) 0) }}."
 						{{ end }}
 
 							data-description="Ship Class: {{ (index (.Tags) 1) }}. {{ (index (.Tags) 0) }}. {{ .ImageDescription }}"
