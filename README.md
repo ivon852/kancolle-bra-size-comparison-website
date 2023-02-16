@@ -3,7 +3,7 @@
 
 《艦娘乳図鑑》的簡略複製品。
 
-線上瀏覽：[https://kancollebra.netlify.app/posts/kancolle-bra-size-comparison/](https://kancollebra.netlify.app/posts/kancolle-bra-size-comparison/)
+線上瀏覽：[https://kancollebra.netlify.app/](https://kancollebra.netlify.app/)
 
 
 ## 0. 專案進度
@@ -11,8 +11,8 @@
 立繪更新至2023/2/14。
 
 - 深海棲艦 (完成)
-- 艦娘 (未完成)
-- 按罩杯、艦種搜尋(完成)。因為使用的網站技術緣故，暫不支援複合條件搜尋。
+- 艦娘 (完成)
+- 援複合條件搜尋 (未完成)
 
 
 ## 1. 標示原則
