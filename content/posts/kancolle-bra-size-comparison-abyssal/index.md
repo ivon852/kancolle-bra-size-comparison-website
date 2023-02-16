@@ -14,6 +14,6 @@ draft: false
 
 深海棲艦有明確的對應艦娘，雙方罩杯也應相同。被衣物遮擋的，除去艦種與體型推測外，一律視為A罩杯。
 
-有意見請點選底部的Github連結。
+有任何意見請點選底部的Github連結聯絡。
 
 {{< gallery match="thumbnail/*" sortOrder="desc" rowHeight="120" margins="1" thumbnailHoverEffect="enlarge" thumbnailResizeOptions="250x250 q90 Lanczos" showExif=true previewType="blur" embedPreview=false loadJQuery=true storeSelectedFilterInUrl=true filterOptions="[{label: 'All'}, {label: 'Cup: A', tags: 'Cup: A'} , {label: 'Cup: B', tags: 'Cup: B'}, {label: 'Cup: C', tags: 'Cup: C'}, {label: 'Cup: D', tags: 'Cup: D'}, {label: 'Cup: E', tags: 'Cup: E'}, {label: 'Cup: F', tags: 'Cup: F'}, {label: 'Cup: H', tags: 'Cup: H'}, {label: 'Cup: I', tags: 'Cup: I'}, {label: 'Ship Class: SS', tags: 'SS'}, {label: 'Ship Class: DD', tags: 'DD'}, {label: 'Ship Class: DE', tags: 'DE'}, {label: 'Ship Class: CL', tags: 'CL'}, {label: 'Ship Class: CA', tags: 'CA'}, {label: 'Ship Class: CV', tags: 'CV'}, {label: 'Ship Class: BB', tags: 'BB'}, {label: 'Ship Class: AV', tags: 'AV'}, {label: 'Ship Class: AS', tags: 'AS'}, {label: 'Ship Class: AP', tags: 'AP'}, {label: 'Ship Class: AO', tags: 'AO'}, {label: 'Ship Class: LHA', tags: 'LHA'}, {label: 'Ship Class: AR', tags: 'AR'}, {label: 'Is Kanmusu', tags: 'Kanmusu'}, {label: 'Is Abyssal', tags: 'Abyssal'}]" >}}
