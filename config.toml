@@ -2,22 +2,17 @@ languageCode = 'zh'
 title = '乳圖鑑'
 enableInlineShortcodes = true
 theme =["simplog","hugo-shortcode-gallery"]
-
 baseURL = "https://kancollebra.netlify.app"
-
 galleryLoadJQuery = true
-
+googleAnalytics = "G-SJ0ZYT9Q13"
 [params]
   subtitle = "Bra Size Comparison"
   colorTheme = "default"
-  description = "Bra Size Comparison of ship girls."
+  description = "Bra size comparison of ship girls."
   twitter = "ivon852"
   customCSS = ""
   adobeFontsKitId = ""
-
   [params.enabled]
     comment = true
     summary = true
     toc = true
-
-googleAnalytics = "G-SJ0ZYT9Q13"
