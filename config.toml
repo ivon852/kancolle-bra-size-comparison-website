@@ -10,8 +10,8 @@ galleryLoadJQuery = true
 [params]
   subtitle = "Bra Size Comparison"
   colorTheme = "default"
-  description = "This is a simple blog theme for Hugo."
-  twitter = "GoHugoIO"
+  description = "Bra Size Comparison of ship girls."
+  twitter = "ivon852"
   customCSS = ""
   adobeFontsKitId = ""
 
@@ -19,3 +19,5 @@ galleryLoadJQuery = true
     comment = true
     summary = true
     toc = true
+
+googleAnalytics = "G-SJ0ZYT9Q13"
