@@ -3,8 +3,6 @@
 
 《艦娘乳図鑑》的簡略複製品。
 
-線上瀏覽：[https://kancollebra.netlify.app/](https://kancollebra.netlify.app/)
-
 
 ## 0. 專案進度
 
@@ -58,6 +56,7 @@ git clone https://github.com/ivon852/kancolle-bra-size-comparison-website.git
 ```bash
 hugo server -D
 ```
+
 
 ## 4. 此網站使用的開源元件
 
