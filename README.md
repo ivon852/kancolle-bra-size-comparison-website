@@ -43,7 +43,7 @@ mogrify -format png -gravity center -crop 250x250+0+0 -resize 250x250 *.png
 6. 使用`deploy_n.sh`指令稿部署網站。
 
 
-## 3. 離線存取此網站
+## 3. 離線瀏覽此網站
 
 1. 複製此儲存庫
 ```bash
@@ -52,9 +52,9 @@ git clone https://github.com/ivon852/kancolle-bra-size-comparison-website.git
 
 2. 安裝[Hugo](https://github.com/topics/hugo)
 
-3. 於本機執行伺服器，以`http://localhost:1313`網址存取。
+3. 生成靜態HTML。成品位於`public`目錄，用瀏覽器開啟`indexl.html`即可瀏覽。
 ```bash
-hugo server -D
+hugo --gc --minify
 ```
 
 

@@ -1,5 +1,4 @@
-rm -r public
-hugo -D
+rm -r public resources .hugo_build.lock
 git add -A
 git commit -m "Update"
 git push

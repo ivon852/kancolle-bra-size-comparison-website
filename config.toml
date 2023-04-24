@@ -1,10 +1,19 @@
 languageCode = 'zh'
+
 title = '乳圖鑑'
+
 enableInlineShortcodes = true
+
 theme =["simplog","hugo-shortcode-gallery"]
-baseURL = "https://kancollebra.netlify.app"
+
+baseURL = "/"
+
+relativeURLs = true
+
+uglyURLs = true
+
 galleryLoadJQuery = true
-googleAnalytics = "G-SJ0ZYT9Q13"
+
 [params]
   subtitle = "Bra Size Comparison"
   colorTheme = "default"
